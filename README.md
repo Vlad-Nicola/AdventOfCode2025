@@ -1,1 +1,6 @@
 # AdventOfCode2025
+Solutions for Advent of Code 2025 problems day by day (Rust)
+
+Advent of code is a game where you solve one programming problem (2 parts) each day between 1-12 December. While doing this you follow an interesting story while collecting stars and unlocking some ASCII art.
+
+Read more about it at: https://adventofcode.com/2025/about
