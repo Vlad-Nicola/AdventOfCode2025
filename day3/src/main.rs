@@ -30,7 +30,8 @@ fn find_max_joltage(line: &str, start: usize, count: usize) -> u64
 
 fn do_day3() -> std::io::Result<(u64, u64)>
 {
-    let file = File::open("input")?;
+    let input_path = std::path::Path::new(env!("CARGO_MANIFEST_DIR")).join("input");
+    let file = File::open(input_path)?;
     let mut buf_reader = BufReader::new(file);
 
     let mut count1: u64 = 0;

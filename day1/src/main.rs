@@ -4,7 +4,8 @@ use std::io::prelude::*;
 
 fn do_day1() -> std::io::Result<(i32, i32)>
 {
-    let file = File::open("input")?;
+    let input_path = std::path::Path::new(env!("CARGO_MANIFEST_DIR")).join("input");
+    let file = File::open(input_path)?;
     let mut buf_reader = BufReader::new(file);
 
     let mut pos: i32 = 50;
