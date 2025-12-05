@@ -15,6 +15,7 @@ jobs:
         os: [windows-latest, ubuntu-latest, macOS-latest]
         day:
           - Day1
+          - Day3
 
     defaults:
       run:
